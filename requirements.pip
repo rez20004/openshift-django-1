@@ -1,5 +1,5 @@
 django>=2.0
-mysqlclient==5.7.26
+mysqlclient==1.4.2
 pillow==5.0.0
 gunicorn==19.7.1
 whitenoise==3.3.1

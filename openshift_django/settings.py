@@ -79,7 +79,7 @@ STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'mysql.connector.django',
+        'ENGINE': 'django.db.backends.sqlite3',
         'NAME': 'mydjango',
         'USER': 'myroot',
         'PASSWORD': 'myroot123',
